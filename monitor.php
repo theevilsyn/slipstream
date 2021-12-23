@@ -6,7 +6,7 @@ $id = @$_GET["id"];
 $id = preg_replace("/[^0-9]/", "", $id);
 if ($id)
 {
-	$file = "/var/www/html/slipstream/sizes/.samy.regoff.$id";
+	$file = "/var/www/html/slipstream/sizes/samy.regoff.$id";
 	for ($i = 0; $i < 20; $i++)
 	{
 		if (file_exists($file))

